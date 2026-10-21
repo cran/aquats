@@ -1,0 +1,62 @@
+Package: aquats
+Type: Package
+Title: Robust Ecological and Fisheries Data Analysis and Visualization
+Version: 1.2.2
+Authors@R: c(
+    person(
+      given = "Ataher",
+      family = "Ali",
+      email = "ataher.cu.ms@gmail.com",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0009-0008-8780-0903")
+    ),
+    person(
+      given = c("Mohammed", "Shahidul"),
+      family = "Alam",
+      email = "alamms@cu.ac.bd",
+      role = "aut",
+      comment = c(ORCID = "0000-0003-2740-5908")
+    )
+  )
+Description: A comprehensive statistical and visualization toolkit tailored
+    for observational data in fisheries science and aquatic ecology. Provides
+    streamlined workflows for univariate and factorial analysis of variance
+    (ANOVA), analysis of covariance (ANCOVA), multivariate analysis of
+    variance (MANOVA), permutational multivariate analysis of variance
+    (PERMANOVA), similarity percentages (SIMPER), generalized linear models,
+    non-linear morphometric regressions, two-group hypothesis testing, and
+    chi-square tests. Features multivariate ordination methods including
+    non-metric multidimensional scaling (NMDS), principal component analysis
+    (PCA), redundancy analysis (RDA), distance-based redundancy analysis
+    (db-RDA), and hierarchical cluster dendrograms. Computes alpha diversity
+    metrics, species accumulation curves, water quality index (WQI) values,
+    heavy metal ecotoxicological contamination indices, correlation heatmaps,
+    and Mantel test network linkages. Offers specialized environmental
+    visualizations including Sankey diagrams, Likert plots, circular bar
+    charts, and longitudinal time-series with uncertainty ribbons.
+    Methodological formulations for multivariate permutation tests follow
+    Anderson (2001) <doi:10.1111/j.1442-9993.2001.01070.pp.x>. Ecological
+    community dissimilarity transformations follow Legendre and Gallagher
+    (2001) <doi:10.1007/s004420100716>, and ecotoxicological contamination
+    index models follow Tomlinson et al. (1980) <doi:10.1007/BF02414780>.
+License: MIT + file LICENSE
+URL: https://github.com/Ataher76/aquats,
+        https://doi.org/10.5281/zenodo.22885025
+BugReports: https://github.com/Ataher76/aquats/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: R (>= 3.5.0)
+Imports: dplyr, emmeans, ggplot2, ggpubr, ggrepel, MASS, multcomp,
+        RColorBrewer, rlang, tidyr, ggalluvial, vegan
+Suggests: cowplot, knitr, multcompView, patchwork, readxl, rmarkdown,
+        writexl
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2026-10-11 05:34:56 UTC; User
+Author: Ataher Ali [aut, cre] (ORCID: <https://orcid.org/0009-0008-8780-0903>),
+  Mohammed Shahidul Alam [aut] (ORCID:
+    <https://orcid.org/0000-0003-2740-5908>)
+Maintainer: Ataher Ali <ataher.cu.ms@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-10-21 15:00:12 UTC

@@ -1,0 +1,9 @@
+bibentry(
+  bibtype = "Manual",
+  title = "aquats: Robust Ecological and Fisheries Data Analysis and Visualization",
+  author = person("Ataher", "Ali"),
+  year = "2026",
+  note = "R package version 1.2.0",
+  doi = "10.5281/zenodo.22885026",
+  url = "https://github.com/Ataher76/aquats"
+)
